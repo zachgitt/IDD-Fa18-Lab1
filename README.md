@@ -8,7 +8,10 @@
 
 ## Part B. Manually Blink a LED
 
-**a. What color stripes are on a 100 Ohm resistor?**
+**a. What color stripes are on a 100 Ohm resistor?
+hello
+**
+
  
 **b. What do you have to do to light your LED?**
 
