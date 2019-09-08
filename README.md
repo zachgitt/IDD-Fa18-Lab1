@@ -10,9 +10,9 @@
 
 **a. What color stripes are on a 100 Ohm resistor?**
 100 Ohm = 1x100 + Tolerance = Value x Multiplier + Tolerance <br>
-Value = 1 = Brown
-Multiplier = 100 = Red
-Tolerance = N/A = Any Color
+Value = 1 = Brown <br>
+Multiplier = 100 = Red <br>
+Tolerance = N/A = Any Color <br>
  
 **b. What do you have to do to light your LED?**
 The LED was lit up when the arduino was powered, and the circuit was complete starting from 5v on the arduino, through the button (pressed), through the LED, through the resistor, to ground on the arduino. The light did not originally work as the LED short leg and long leg were reversed. Placing the longer LED leg to positive and shorter leg to negative allowed for the LED to light properly.
