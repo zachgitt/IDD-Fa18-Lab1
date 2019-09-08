@@ -1,6 +1,6 @@
-# IDD-Fa18-Lab1: Blink!
+# IDD-Fa19-Lab1: Blink!
 
-**A lab report by John Q. Student**
+**Zachary Gittelman Lab1 Report**
 
 **Fork** this repository to get a template for Lab 1 for *Developing and Designing Interactive Devices* at Cornell Tech, Fall 2018. You should modify this `README.md` file to delete this paragraph and update below. As the lab asks:
 
