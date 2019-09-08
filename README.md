@@ -9,7 +9,7 @@
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
-100 Ohm = 1*100 + Tolerance = Value*Multiplier + Tolerance
+100 Ohm = 1x100 + Tolerance = Value x Multiplier + Tolerance
 Value = 1 = Brown
 Multiplier = 100 = Red
 Tolerance = N/A = Any Color
