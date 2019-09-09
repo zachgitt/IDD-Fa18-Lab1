@@ -38,11 +38,14 @@ void loop() {
 }
 ```
 
-**b. What line(s) of code do you need to change to change the rate of blinking?**
+**b. What line(s) of code do you need to change to change the rate of blinking?** <br>
+By changing the delay times, we can modify how long the LED stays on and off.
 
-**c. What circuit element would you want to add to protect the board and external LED?**
+**c. What circuit element would you want to add to protect the board and external LED?** <br>
+By adding a resistor, we would protect the board from short circuiting.
  
-**d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+**d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?** <br>
+The blinking seems indistinguishable at roughly 10ms. However by record the LED in slow motion I verified that it was still blinking.
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
