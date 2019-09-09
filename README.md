@@ -21,7 +21,7 @@ The LED was lit up when the arduino was powered, and the circuit was complete st
 
 ### 1. Blink the on-board LED
 
-**a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
+**a. What line(s) of code do you need to change to make the LED blink (like, at all)?** <br>
 The arduino > basic > blink example did not need to be modified as it already had the LED blink on and off. 
 ```c
 void setup() {
