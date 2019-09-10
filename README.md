@@ -85,7 +85,7 @@ The device is powered through USB. The power source is therefore the battery fro
 Yes, the on board computer has memory to store previous images to determine the direction of movement.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
-I soldered a positive lead, LED, resistor, and negative lead to a resistor on the mouse. By originally connecting the negative lead to ground on the arduino I could determine a good position for the positive lead on the board. And by connecting the positive lead to 5V on the arduino I could determine a good position for the negative lead on the board. I determined this because the LED would like up if the lead was connected properly.
+I soldered a positive lead, LED, resistor, and negative lead to a resistor on the mouse. By originally connecting the negative lead to ground on the arduino I could determine a good position for the positive lead on the board. And by connecting the positive lead to 5V on the arduino I could determine a good position for the negative lead on the board. I determined this because the LED would light up if the lead was connected properly.
 
 ### 3. Build your light!
 
