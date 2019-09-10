@@ -60,34 +60,37 @@ Hitting raw from the video link will download the file.
 
 ## Part D. Manually fade an LED
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?** <br>
-The LED will go from dimly glowing to full brightness.
-
+The LED will go from dimly glowing to full brightness when turning the potentiometer because as we turn the knob the resistance decreases.
 
 ## Part E. Fade an LED using Arduino
-
-**a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
+**a. What do you have to modify to make the code control the circuit you've built on your breadboard?** <br>
+Send the digital signal through a pin that is compatible. In this case I sent the signal through pin 13 by setting pinMode() to pin 13 and the two digitalWrite()'s to pin 13.
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
-
+While digitalWrite() can only send a HIGH or LOW Signal, analogWrite() can send a pulse width modulation signal which turns on for a specified duration in a given cycle length. 
 
 ## Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
+**a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"** <br>
+I took apart a mouse which has a sensor to read shifts in the light to determine the direction the mouse is moving. This sensor is connected to a computer on the mouse which calculates direction. 
 
-**a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+**b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?** <br>
+There is a light sensor. The output of the sensor is shared with the computer on the mouse.
 
-**b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+**c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?** <br>
+The device is powered through USB. The power source is therefore the battery from attached computer. The power drawn through USB is 5V which does not appear to be transformed in the mouse. However resistors on the board regulate the power as the mouse moves the red light gets brighter.
 
-**c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
-
-**d. Is information stored in your device? Where? How?**
+**d. Is information stored in your device? Where? How?** <br>
+Yes, the on board computer has memory to store previous images to determine the direction of movement.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
-
-**Describe what you did here.**
+I soldered a positive lead, LED, resistor, and negative lead to a resistor on the mouse. By originally connecting the negative lead to ground on the arduino I could determine a good position for the positive lead on the board. And by connecting the positive lead to 5V on the arduino I could determine a good position for the negative lead on the board. I determined this because the LED would like up if the lead was connected properly.
 
 ### 3. Build your light!
 
 **Make a video showing off your Frankenlight.**
+[Mouse Frankenlight]()
 
 **Include any schematics or photos in your lab write-up.**
+[Schematic]()
