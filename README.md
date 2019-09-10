@@ -54,13 +54,13 @@ The blinking seems indistinguishable at roughly 10ms. However by record the LED 
 ### 2. Blink your LED
 
 **Make a video of your LED blinking, and add it to your lab submission.**
-
+Hitting raw from the video link will download the file.
 [Blinking Video](https://github.com/zachgitt/IDD-Fa19-Lab1/blob/master/blinking_vid.mov)
 
 
 ## Part D. Manually fade an LED
-
-**a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
+**a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?** <br>
+The LED will go from dimly glowing to full brightness.
 
 
 ## Part E. Fade an LED using Arduino
