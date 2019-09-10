@@ -66,7 +66,7 @@ The LED will go from dimly glowing to full brightness when turning the potentiom
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?** <br>
 Send the digital signal through a pin that is compatible. In this case I sent the signal through pin 13 by setting pinMode() to pin 13 and the two digitalWrite()'s to pin 13.
 
-**b. What is analogWrite()? How is that different than digitalWrite()?**
+**b. What is analogWrite()? How is that different than digitalWrite()?** <br>
 While digitalWrite() can only send a HIGH or LOW Signal, analogWrite() can send a pulse width modulation signal which turns on for a specified duration in a given cycle length. 
 
 ## Part F. FRANKENLIGHT!!!
