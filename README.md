@@ -79,7 +79,7 @@ I took apart a mouse which has a sensor to read shifts in the light to determine
 There is a light sensor. The output of the sensor is shared with the computer on the mouse.
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?** <br>
-The device is powered through USB. The power source is therefore the battery from attached computer. The power drawn through USB is 5V which does not appear to be transformed in the mouse. However resistors on the board regulate the power as the mouse moves the red light gets brighter.
+The device is powered through USB. The power source is therefore the battery from the attached computer. The power drawn through USB is 5V which does not appear to be transformed in the mouse. However resistors on the board regulate the power as the mouse moves the red light gets brighter.
 
 **d. Is information stored in your device? Where? How?** <br>
 Yes, the on board computer has memory to store previous images to determine the direction of movement.
