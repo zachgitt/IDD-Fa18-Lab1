@@ -54,7 +54,7 @@ The blinking seems indistinguishable at roughly 10ms. However by record the LED 
 ### 2. Blink your LED
 
 **Make a video of your LED blinking, and add it to your lab submission.**
-Hitting raw from the video link will download the file.
+Hitting raw from the video link will download the file. <br>
 [Blinking Video](https://github.com/zachgitt/IDD-Fa19-Lab1/blob/master/blinking_vid.mov)
 
 
