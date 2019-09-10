@@ -89,8 +89,8 @@ I soldered a positive lead, LED, resistor, and negative lead to a resistor on th
 
 ### 3. Build your light!
 
-**Make a video showing off your Frankenlight.**
+**Make a video showing off your Frankenlight.** <br>
 [Mouse Frankenlight]()
 
-**Include any schematics or photos in your lab write-up.**
+**Include any schematics or photos in your lab write-up.** <br>
 [Schematic]()
