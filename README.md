@@ -47,7 +47,8 @@ By adding a resistor, we would protect the board from short circuiting.
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?** <br>
 The blinking seems indistinguishable at roughly 10ms. However by record the LED in slow motion I verified that it was still blinking.
 
-**e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
+**e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.** <br>
+[Blink Code] (https://github.com/zachgitt/IDD-Fa19-Lab1/blob/master/blink.ino)
 
 
 ### 2. Blink your LED
